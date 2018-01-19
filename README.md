@@ -25,8 +25,8 @@ It works on all platforms. Android, IOS and window phone. It run **any browser w
 
 To try on your phone is only 2 easy steps, check it out!
 
-1. Open this [hiro marker image](https://jeromeetienne.github.io/AR.js/data/images/HIRO.jpg) in your desktop browser.
-1. Open this [augmented reality webapps](https://jeromeetienne.github.io/AR.js/three.js/examples/mobile-performance.html) in your phone browser, and point it
+1. Open this [hiro marker image](./AR.js/data/images/HIRO.jpg) in your desktop browser.
+1. Open this [augmented reality webapps](./AR.js/three.js/examples/mobile-performance.html) in your phone browser, and point it
 to your screen.
 
 **You are done!** It will open a webpage which read the phone webcam, localize a hiro marker and add 3d on top of it, as you can see below.
@@ -162,15 +162,15 @@ The service is available [webxr.io/augmented-website](https://webxr.io/augmented
 
 Some applications:
 
-- [Pattern Marker Training](https://jeromeetienne.github.io/AR.js/three.js/examples/marker-training/examples/generator.html) :
+- [Pattern Marker Training](./AR.js/three.js/examples/marker-training/examples/generator.html) :
   Generate a [pattern marker](https://artoolkit.org/documentation/doku.php?id=3_Marker_Training:marker_training) with your own image.
-- [ARCode Generator](https://jeromeetienne.github.io/AR.js/three.js/examples/arcode.html) :
+- [ARCode Generator](./AR.js/three.js/examples/arcode.html) :
   Generator of AR-Code
   ([source](https://github.com/jeromeetienne/AR.js/blob/master/three.js/examples/arcode.html))
-- [WebAR Playground](https://jeromeetienne.github.io/webar-playground/) :
+- [WebAR Playground](./webar-playground/) :
   Playground running in WebAR with ar.js/chromiumAR
 
-[ALL EXAMPLES](https://jeromeetienne.github.io/AR.js-docs/misc/EXAMPLES.html)
+[ALL EXAMPLES](./AR.js-docs/misc/EXAMPLES.html)
 
 # Folders
 - ```/three.js``` is the extension to use it with [pure three.js](https://threejs.org)
@@ -223,11 +223,11 @@ Credits: @HelloDeadline, @sorianog
 
 # Future
 
-[FUTURE.md](https://jeromeetienne.github.io/AR.js-docs/misc/FUTURE.html)
+[FUTURE.md](./AR.js-docs/misc/FUTURE.html)
 
 # FAQ
 
-[FAQ.md](https://jeromeetienne.github.io/AR.js-docs/misc/FAQ.html)
+[FAQ.md](./AR.js-docs/misc/FAQ.html)
 
 
 
