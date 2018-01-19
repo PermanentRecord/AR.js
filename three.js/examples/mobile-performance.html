@@ -7,11 +7,8 @@
 <script src="../build/ar.js"></script>
 <script>THREEx.ArToolkitContext.baseURL = '../'</script>
 
-<body style='margin : 0px; overflow: hidden; font-family: Monospace;'><div style='position: absolute; top: 10px; width:100%; text-align: center; z-index: 1;'>
-	<a href="https://github.com/jeromeetienne/AR.js/" target="_blank">AR.js</a> - three.js mobile performance
-	<br/>
-	Contact me any time at <a href='https://twitter.com/jerome_etienne' target='_blank'>@jerome_etienne</a>
-</div><script>
+<body style='margin : 0px; overflow: hidden; font-family: Monospace;'>
+	<script>
 	//////////////////////////////////////////////////////////////////////////////////
 	//		Init
 	//////////////////////////////////////////////////////////////////////////////////
@@ -49,15 +46,7 @@
 
 	var arToolkitSource = new THREEx.ArToolkitSource({
 		// to read from the webcam 
-		sourceType : 'webcam',
-
-		// to read from an image
-		// sourceType : 'image',
-		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/images/img.jpg',		
-
-		// to read from a video
-		// sourceType : 'video',
-		// sourceUrl : THREEx.ArToolkitContext.baseURL + '../data/videos/headtracking.mp4',		
+		sourceType : 'webcam',	
 	})
 
 	arToolkitSource.init(function onReady(){
